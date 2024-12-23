@@ -56,7 +56,7 @@ export default function Works() {
                       : 'group inline-flex min-w-fit items-center space-x-4 rounded-t-lg border-b-2 border-transparent p-4 hover:border-gray-300'
                   }
                 >
-                  <Iconify icon={tab.icon} />
+                  {/* <Iconify icon={tab.icon} /> */}
                   <span>{tab.label}</span>
                 </li>
               ))}

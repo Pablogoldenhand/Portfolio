@@ -92,7 +92,7 @@ export default function Skills() {
         </LoadAnimate>
         {/* Quote Section  */}
 
-        <div className="container mx-auto px-3 py-6">
+        {/* <div className="container mx-auto px-3 py-6">
           <LoadAnimate amount={0}>
             <div className="z-20 mx-auto w-full text-center lg:w-3/4 xl:w-1/2">
               <svg
@@ -112,7 +112,7 @@ export default function Skills() {
               <p className="text-neutral-400">Linux Founder</p>
             </div>
           </LoadAnimate>
-        </div>
+        </div> */}
       </section>
       <div id="works" />
     </>

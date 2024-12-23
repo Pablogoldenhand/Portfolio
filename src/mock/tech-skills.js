@@ -1,31 +1,31 @@
 export const FRONTEND_SKILLS = [
   {
     label: 'HTML',
-    proficiency: '80%',
+    proficiency: '100%',
     icon: 'vscode-icons:file-type-html',
     iconClasses: 'text-3xl',
   },
   {
     label: 'CSS',
-    proficiency: '80%',
+    proficiency: '100%',
     icon: 'vscode-icons:file-type-css',
     iconClasses: 'text-3xl',
   },
   {
     label: 'Javascript',
-    proficiency: '90%',
+    proficiency: '100%',
     icon: 'logos:javascript',
     iconClasses: 'text-2xl',
   },
   {
     label: 'Typescript',
-    proficiency: '80%',
+    proficiency: '100%',
     icon: 'logos:typescript-icon',
     iconClasses: 'text-2xl',
   },
   {
     label: 'React.js',
-    proficiency: '80%',
+    proficiency: '100%',
     icon: 'vscode-icons:file-type-reactjs',
     iconClasses: 'text-2xl',
   },
@@ -66,12 +66,6 @@ export const FRONTEND_SKILLS = [
     iconClasses: 'text-2xl',
   },
   {
-    label: 'Styled Components',
-    proficiency: '90%',
-    icon: 'simple-icons:styled-components',
-    iconClasses: 'text-4xl',
-  },
-  {
     label: 'Redux',
     proficiency: '90%',
     icon: 'logos:redux',
@@ -96,10 +90,18 @@ export const FRONTEND_SKILLS = [
     iconClasses: 'text-3xl',
   },
   {
-    label: 'Lodash',
+    label: 'Next.js',
     proficiency: '90%',
-    icon: 'logos:lodash',
+    icon: 'logos:nextjs-icon',
     iconClasses: 'text-xl',
+  },
+  {
+    label: 'Angular',
+    icon: 'logos:angular-icon',
+  },
+  {
+    label: 'Vue.js',
+    icon: 'logos:vue',
   },
 ];
 
@@ -129,9 +131,9 @@ export const BACKEND_SKILLS = [
     iconClasses: 'text-3xl',
   },
   {
-    label: 'Prisma',
+    label: 'Laravel',
     proficiency: '90%',
-    icon: 'vscode-icons:file-type-light-prisma',
+    icon: 'logos:laravel',
     iconClasses: 'text-3xl',
   },
   {
@@ -194,16 +196,37 @@ export const BACKEND_SKILLS = [
     icon: 'logos:vercel-icon',
     iconClasses: 'text-2xl',
   },
+  {
+    label: 'Ruby on Rails',
+    proficiency: '80%',
+    icon: 'vscode-icons:file-type-rails',
+    iconClasses: 'text-2xl',
+  },
+  {
+    label: 'Wordpress',
+    proficiency: '80%',
+    icon: 'logos:wordpress-icon',
+    iconClasses: 'text-2xl',
+  },
+  {
+    label: 'Drupal',
+    proficiency: '80%',
+    icon: 'logos:drupal-icon',
+    iconClasses: 'text-2xl',
+  },
 ];
 
 export const FRONTEND_DESCRIPTIONS = [
   'Building complex, interactive user interfaces using React js.',
   'Building Large scale Web applications using state management library such as redux.',
   'Building responsive Web Applications.',
+  'Utilizing APIs to connect frontend with backend frameworks, ensuring seamless data flow and dynamic updates.',
+  'Optimizing frontend performance with lazy loading, code splitting, and efficient state management'
 ];
 
 export const BACKEND_DESCRIPTIONS = [
   'Building RESTful APIs and GraphQL APIs.',
-  'Worked with various Node.js modules and libraries, such as Express to develop full-stack applications.',
-  'good understanding of database design in technologies such as PostgreSQL and MySQL.',
+  'Good understanding of database design in technologies such as PostgreSQL and MySQL.',
+  'Building scalable backend systems.',
+  'Optimizing database performance and managing schemas.',
 ];
